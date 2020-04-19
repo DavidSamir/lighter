@@ -83,25 +83,6 @@ html {
   border-color: #000;
 }
 
-.btn[disabled],
-.btn-disabled,
-.btn-disabled:hover,
-.btn-disabled:focus,
-.btn-disabled:active {
-  border: none;
-  background-image: none;
-  filter: alpha(opacity=40);
-  opacity: 0.40;
-  cursor: not-allowed;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  pointer-events: none;
-}
-
-.btn-hidden {
-  display: none;
-}
-
 .btn-primary,
 .btn-selected,
 a.btn-primary,
@@ -110,20 +91,7 @@ a.btn-selected {
   color: #fff;
 }
 
-.form input[type="text"],
-.form input[type="password"],
-.form input[type="email"],
-.form input[type="url"],
-.form input[type="date"],
-.form input[type="month"],
-.form input[type="time"],
-.form input[type="datetime"],
-.form input[type="datetime-local"],
-.form input[type="week"],
-.form input[type="number"],
-.form input[type="search"],
-.form input[type="tel"],
-.form input[type="color"],
+.form input,
 .form select,
 .form textarea {
   padding: 0.5em 0.6em;
@@ -137,20 +105,7 @@ a.btn-selected {
           box-sizing: border-box;
 }
 
-.form input[type="text"]:focus,
-.form input[type="password"]:focus,
-.form input[type="email"]:focus,
-.form input[type="url"]:focus,
-.form input[type="date"]:focus,
-.form input[type="month"]:focus,
-.form input[type="time"]:focus,
-.form input[type="datetime"]:focus,
-.form input[type="datetime-local"]:focus,
-.form input[type="week"]:focus,
-.form input[type="number"]:focus,
-.form input[type="search"]:focus,
-.form input[type="tel"]:focus,
-.form input[type="color"]:focus,
+.form input:focus,
 .form select:focus,
 .form textarea:focus {
   outline: 0;
@@ -170,20 +125,7 @@ a.btn-selected {
   display: block;
 }
 
-.form input[type="text"][disabled],
-.form input[type="password"][disabled],
-.form input[type="email"][disabled],
-.form input[type="url"][disabled],
-.form input[type="date"][disabled],
-.form input[type="month"][disabled],
-.form input[type="time"][disabled],
-.form input[type="datetime"][disabled],
-.form input[type="datetime-local"][disabled],
-.form input[type="week"][disabled],
-.form input[type="number"][disabled],
-.form input[type="search"][disabled],
-.form input[type="tel"][disabled],
-.form input[type="color"][disabled],
+.form input[disabled],
 .form select[disabled],
 .form textarea[disabled] {
   cursor: not-allowed;
