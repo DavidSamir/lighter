@@ -1,0 +1,19 @@
+{
+  "name": "lighters",
+  "version": "1.0.1",
+  "description": "micro CSS library A set of small, responsive CSS modules that you can use in every web project. ... Unlike other frameworks, Pure's design is unopinionated, minimal and flat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidSamir/lighters.git"
+  },
+  "author": "David Samir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidSamir/lighters/issues"
+  },
+  "homepage": "https://github.com/DavidSamir/lighters#readme"
+}
