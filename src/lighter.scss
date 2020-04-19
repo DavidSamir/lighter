@@ -13,19 +13,31 @@
      padding: 0;
      box-sizing: border-box;
  }
- .grid-25 {
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr 1fr;
- }
 
- .grid-50 {
+ .g {
     display: grid;
+ }
+.fr-2 {
     grid-template-columns: 1fr 1fr ;
 }
-.grid-75 {
-    display: grid;
+.fr-3 {
     grid-template-columns: 1fr 1fr 1fr ;
 }
+.fr-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.a-2 {
+    grid-template-columns: auto auto ;
+}
+.a-3 {
+    grid-template-columns: auto auto auto ;
+}
+.a-4 {
+    grid-template-columns: auto auto auto auto ;
+}
+
 
 .btn {
     font-family: inherit;
