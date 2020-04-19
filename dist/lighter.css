@@ -17,25 +17,39 @@ html {
           box-sizing: border-box;
 }
 
-.grid-25 {
+.g {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.grid-50 {
-  display: -ms-grid;
-  display: grid;
+.fr-2 {
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
 }
 
-.grid-75 {
-  display: -ms-grid;
-  display: grid;
+.fr-3 {
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fr-4 {
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.a-2 {
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.a-3 {
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+.a-4 {
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
 }
 
 .btn {
