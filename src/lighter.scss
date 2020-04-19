@@ -14,9 +14,9 @@
      box-sizing: border-box;
  }
 
- .g {
+.g {
     display: grid;
- }
+}
 .fr-2 {
     grid-template-columns: 1fr 1fr ;
 }
@@ -27,7 +27,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-
 .a-2 {
     grid-template-columns: auto auto ;
 }
@@ -37,7 +36,6 @@
 .a-4 {
     grid-template-columns: auto auto auto auto ;
 }
-
 
 .btn {
     font-family: inherit;
@@ -92,8 +90,6 @@ a.btn-selected {
     color: #fff;
 }
 
-
-
 .form input[type="text"],
 .form input[type="password"],
 .form input[type="email"],
@@ -118,7 +114,6 @@ a.btn-selected {
     vertical-align: middle;
     box-sizing: border-box;
 }
-
 
 .form input[type="text"]:focus,
 .form input[type="password"]:focus,
@@ -146,6 +141,7 @@ a.btn-selected {
     outline: thin solid #129FEA;
     outline: 1px auto #129FEA;
 }
+
 .form .pure-checkbox,
 .form .pure-radio {
     margin: 0.5em 0;
