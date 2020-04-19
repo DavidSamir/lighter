@@ -4,4 +4,4 @@ micro CSS library A set of small, responsive CSS modules that you can use in eve
 
 # Install
 
-+ npm i lighers
++ npm i lighters
