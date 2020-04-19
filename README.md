@@ -1,14 +1,10 @@
 
-<h3 align="center">lighter</h3>
+<h1 align="center">lighters</h1>
 
 <p align="center">
 micro CSS library A set of small, responsive CSS modules that you can use in every web project. ... Unlike other frameworks, Pure's design is unopinionated, minimal and flat  <br>
 </p>
 
-
-# Install
-
-+ npm i lighters
 
 
 ## Quick start
